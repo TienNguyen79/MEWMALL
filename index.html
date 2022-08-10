@@ -1,0 +1,2436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="height=device-height, 
+    width=device-width, initial-scale=1.0, 
+    minimum-scale=1.0, maximum-scale=1.0, 
+    user-scalable=no, target-densitydpi=device-dpi"> 
+    <link rel="stylesheet" href="./grid/cssgrid.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/animation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Shop MewMall</title>
+</head>
+<body>
+    <div class="main">
+        <!-- header -->
+        <div class="header">
+            <div class="grid">
+                <div class="header-wrap">
+                    <div class="grid wide">
+                        <div class="header-group">
+                            
+                            <div class="header-logo">
+                                <a href="">
+                                    <img src="./imgs/img-header/logo.webp" class="header-logo__img"  alt="Catlogo">
+                                </a>
+                            </div>
+                            
+                            <div class="header-nav">
+                                <div class="header-nav__info">
+                                    <div class="header-nav__info__search">
+                                        <input type="text" class="search-input" placeholder="Từ Khóa..."> <i class="fa-solid fa-magnifying-glass"></i>
+                                    </div>
+
+                                    <div class="header-nav__info__contact">
+                                        <a href="" class="header-nav__info__contact__link">
+                                            <i class="fa-solid fa-phone telephone">
+                                                
+                                            </i>
+                                
+                                            <div class="wrap_icon">
+                                                <span>
+                                                    Hot Line
+                                                    <br>
+                                                    19006550
+                                                </span>
+
+                                            </div>
+                                        </a>
+
+                                        <a href="" class="header-nav__info__contact__link">
+                                            <i class="fa-solid fa-map-location-dot"></i>
+                                            <div class="wrap_icon">
+
+                                                <span>
+                                                    Hệ Thống
+                                                    <br>
+                                                        Cửa Hàng
+    
+                                                    
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="header-nav__info__userShop">
+                                        <a href="" class="user">
+                                            <i class="fa-solid fa-circle-user"></i>
+                                            
+                                        </a>
+
+
+                                        <a href="" class="cart">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </a>
+
+                                        <div class="count-product">
+                                            <span class="count-product__number">0</span>
+                                        </div>
+
+                                        <ul class="BoxProduct">
+                                             <div class="productsBought-list">
+                                                <h1 class="productsBought-title">GIỎ HÀNG CỦA BẠN</h1>
+                                                
+                                                <!-- <li class="productsBought-item">                                           
+                                                            <div class="productsBought-item__container1">
+                                                                <div class="productsBought-item__wrapImg">
+                                                                    <img src="./imgs/container_flashsale/container-flashsale2/fls2_11.webp" alt="" class="productsBought-item__img">
+                                                                </div>
+                
+                                                                <div class="productsBought-item__wrapbody">
+                                                                    <div class="productsBought-item__wrapbody1">
+                                                                        <div class="productsBought-item__contentandPrice">
+                                                                            <span class="productsBought-item__nameproduct">Phim ống kính full-frame Baseus cho iP 12 mini 5.4 / 12 6.1 / 12 Pro 6.1 / 12 Pro Max 6.7 inch 2020 (2 chiếc / gói) Trong suốt</span>
+                                                                            <div class="productsBought-item__pricefake">
+                                                                                <span>Giá: </span> <span class="productsBought-item__numberPrice">299.000 </span> <span class="productsBought-item__VND"></span>
+                                                                            </div>
+                                                                        </div>
+                    
+                                                                        <div class="productsBought-item__onlyPrice">
+                                                                            <span class="productsBought-item__onlyPrice__numberPrice">299.000 </span> <span class="productsBought-item__onlyPrice__VND"></span>
+                                                                        </div>
+                                                                    </div>
+                
+                                                                    <div class="productsBought-item__wrapbody2">
+                                                                        <div class="gallery-intro__body__controlquantity">
+                                                                            <div class="controlquantity-subtrack productboght">
+                                                                                <i class="fa-solid fa-minus"></i>
+                                                                            </div>
+                                                                                <input class="controlquantity-input productboghtInput" value="1" type="text">
+                                                                            <div class="controlquantity-plus productboght">
+                                                                                <i class="fa-solid fa-plus"></i>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="productsBought-item__control">
+                                                                            <button class="btn-boughtProduct">Mua</button>
+                                                                            <button class="btn-deleteProduct">Xóa</button>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                </li> -->
+                                            </div> 
+
+                                        </ul>
+
+
+                                        <ul class="user__account-list">
+                                            <li class="user__account__item btnlogin">
+                                                <a href="" class="user__account__link dangnhap">Đăng Nhập</a>
+                                            </li>
+                                            <li class="user__account__item btnregister">
+                                                <a href="#" class="user__account__link">Đăng Ký</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+    
+                                <div class="header-nave__menu">
+                                    <ul class="header-nave__menu-list">
+                                        <li class="menu_item">
+                                            <a href="" class="menu_item__link">Trang Chủ</a>
+                                        </li>
+
+                                        <li class="menu_item">
+                                            <a href="" class="menu_item__link">Giới Thiệu</a>
+                                        </li>
+
+                                        <li class="menu_item">
+                                            <a href="" class="menu_item__link">Khuyến Mãi Hot</a>
+                                        </li>
+
+                                        <li class="menu_item">
+                                            <a href="" class="menu_item__link">Tin tức</a>
+                                        </li>
+
+                                        <li class="menu_item">
+                                            <a href="" class="menu_item__link">Tuyển Dụng</a>
+                                        </li>
+
+                                        <li class="menu_item">
+                                            <a href="" class="menu_item__link">Liên hệ</a>
+                                        </li>
+
+                                        <li class="menu_item">
+                                            <div class="menu_item-last">
+                                                <a href="" class="menu_item__link">Sản Phẩm</a>
+                                                <i class="fa-solid fa-sort-down"></i>
+                                            </div>
+
+                                            <div class="menu_item-sub">
+                                                <div class="row">
+                                                    <div class="col l-3">
+                                                        <h2>Decor - Nội Thất</h2>
+                                                       <ul class="menu_item-sub-list">
+                                                            <li class="menu_item-sub-item">Bàn Ghế</li>
+                                                            <li class="menu_item-sub-item">Tủ Quần Áo</li>
+                                                            <li class="menu_item-sub-item">Gương</li>
+                                                            <li class="menu_item-sub-item">Tủ đầu giường</li>
+                                                            <li class="menu_item-sub-item">Giá Treo Đồ</li>
+                                                       </ul>
+
+                                                       <h2>Điện Gia Dụng</h2>
+
+                                                       <h2>Điện tử điện lạnh</h2>
+                                                    </div>
+                                                    <div class="col l-3">
+                                                        <h2>Phụ Kiện Thời Trang</h2>
+                                                        <ul class="menu_item-sub-list">
+                                                             <li class="menu_item-sub-item">T-Shirt</li>
+                                                             <li class="menu_item-sub-item">Áp polo</li>
+                                                             <li class="menu_item-sub-item">Quần Jogger</li>
+                                                             <li class="menu_item-sub-item">Quần Jean</li>
+                                                             <li class="menu_item-sub-item">Thắt lưng</li>
+                                                        </ul>
+ 
+                                                        <h2>Phụ kiện - Thiết bị số</h2>
+ 
+                                                        <h2>Phụ kiện - Cáp sạc</h2>
+                                                    </div>
+                                                    <div class="col l-3">
+                                                        <h2>Quà tặng lưu niệm</h2>
+                                                        <ul class="menu_item-sub-list">
+                                                             <li class="menu_item-sub-item">Dây chuyền</li>
+                                                             <li class="menu_item-sub-item">Lắc Tay</li>
+                                                             <li class="menu_item-sub-item">Hoa tai, Nhẫn</li>
+                                                             <li class="menu_item-sub-item">Túi sách mini</li>
+                                                             <li class="menu_item-sub-item">Thú bông</li>
+                                                        </ul>
+ 
+                                                        <h2>Đồ chơi mẹ và bé</h2>
+ 
+                                                        
+
+                                                    </div>
+                                                    <div class="col l-3">
+                                                        <h2>Phụ kiện thể thao</h2>
+                                                       <ul class="menu_item-sub-list">
+                                                            <li class="menu_item-sub-item">Giày chạy</li>
+                                                            <li class="menu_item-sub-item">Giày đá bóng</li>
+                                                            <li class="menu_item-sub-item">Gương</li>
+                                                            <li class="menu_item-sub-item">Ván trượt</li>
+                                                            <li class="menu_item-sub-item">Vợt cầu lông</li>
+                                                       </ul>
+
+                                                       <h2>Phụ kiện Điện thoại</h2>
+
+                                                       
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <!-- slider -->
+
+        <div class="slider">
+            <div class="grid wide">
+                <div class="slider-wrapper">
+                    <div class="row no-gutters">
+                        <div class="col l-8 m-12 c-12">
+                            <div class="slider__banner">
+                        
+                                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                                    <div class="carousel-indicators">
+                                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                      
+                                    </div>
+                                    <div class="carousel-inner">
+                                      <div class="carousel-item active">
+                                        <img src="./imgs/img-slider/slide-img1.webp" class="d-block w-100" alt="...">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="./imgs/img-slider/slide-img2.webp" class="d-block w-100" alt="...">
+                                      </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Next</span>
+                                    </button>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-12 c-12">
+                            <div class="slider-theNewhot">
+                                <div class="slider-theNewhot__title">
+                                    <h1>TIN KHUYẾN MÃI</h1>
+                                </div>
+                                <div class="slider-theNewhot__wrap">
+                                    <div class="slider-theNewhot__item">
+                                        <img src="./imgs/img-slider/thenew1.webp" alt="" class="slider-theNewhot__img">
+        
+                                        <div class="slider-theNewhot__content">
+                                            <a href="">
+                                                <span class="slider-theNewhot__content__head">Tặng ngay voucher 300k - Khi mua hàng online tại Mew Mall</span>
+                                            </a>
+                                            <div class="slider-theNewhot__content__date">13/7/2022</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="slider-theNewhot__item">
+                                        <img src="./imgs/img-slider/thenew2.webp" alt="" class="slider-theNewhot__img">
+        
+                                        <div class="slider-theNewhot__content">
+                                            <a href="">
+                                                <span class="slider-theNewhot__content__head">Xả kho đồng giá 50K siêu hấp dẫn cùng Mew Mall - Mau lựa cho mình các vật dụng cần thiết nhé</span>
+                                            </a>
+                                            <div class="slider-theNewhot__content__date">13/7/2022</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="slider-theNewhot__item">
+                                        <img src="./imgs/img-slider/thenew3.webp" alt="" class="slider-theNewhot__img">
+        
+                                        <div class="slider-theNewhot__content">
+                                            <a href="">
+                                                <span class="slider-theNewhot__content__head">Ngày hội gia đình - Khuyến mãi 50% tất cả các mặt hàng gia dụng</span>
+                                            </a>
+                                            <div class="slider-theNewhot__content__date">13/7/2022</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="slider-theNewhot__item">
+                                        <img src="./imgs/img-slider/thenew4.webp" alt="" class="slider-theNewhot__img">
+        
+                                        <div class="slider-theNewhot__content">
+                                            <a href="">
+                                                <span class="slider-theNewhot__content__head">Đại tiệc - Siêu khuyến mãi cuối tuần lên tới 75% tại Mew Mall</span>
+                                            </a>
+                                            <div class="slider-theNewhot__content__date">13/7/2021</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    
+
+             
+
+                </div>
+            </div>
+        </div>
+        <!-- container -->
+        <div class="Container">
+            <div class="grid wide">
+                <div class="Hotcategory">
+                     <h1 class="Hotcategory-title">DANH MỤC NỔI BẬT</h1>
+     
+                     <div class="Hotcategory-product">
+                         <div class="row">
+                             <div class="col l-1-2 m-2-4 c-2-4">
+                                 <img src="./imgs/category/category1.webp" alt="" class="Hotcategory-product__img">
+                                 <a href="">
+                                     <span>Kệ Sách -TV</span>
+                                 </a>
+                             </div>
+                             
+                             <div class="col l-1-2 m-2-4 c-2-4">
+                                <img src="./imgs/category/category2.webp" alt="" class="Hotcategory-product__img">
+                                <a href="">
+                                    <span>Thức ăn cho Pet</span>
+                                </a>
+                            </div>
+
+                            <div class="col l-1-2 m-2-4 c-2-4">
+                                <img src="./imgs/category/category3.webp" alt="" class="Hotcategory-product__img">
+                                <a href="">
+                                    <span>Loa Bluetooth</span>
+                                </a>
+                            </div>
+
+                            <div class="col l-1-2 m-2-4 c-2-4">
+                                <img src="./imgs/category/category4.webp" alt="" class="Hotcategory-product__img">
+                                <a href="">
+                                    <span>Đồng hồ để bàn</span>
+                                </a>
+                            </div>
+
+                            <div class="col l-1-2 m-2-4 c-2-4">
+                                <img src="./imgs/category/category5.webp" alt="" class="Hotcategory-product__img">
+                                <a href="">
+                                    <span>Thiết bị gia đình</span>
+                                </a>
+                            </div>
+
+                            <div class="col l-1-2 m-2-4 c-2-4">
+                                <img src="./imgs/category/category6.webp" alt="" class="Hotcategory-product__img">
+                                <a href="">
+                                    <span>Chăm sóc nhà cửa</span>
+                                </a>
+                            </div>
+
+                            <div class="col l-1-2 m-2-4 c-2-4">
+                                <img src="./imgs/category/category7.webp" alt="" class="Hotcategory-product__img">
+                                <a href="">
+                                    <span>Tấm lót, đệm ngủ</span>
+                                </a>
+                            </div>
+
+                            <div class="col l-1-2 m-2-4 c-2-4">
+                                <img src="./imgs/category/category8.webp" alt="" class="Hotcategory-product__img">
+                                <a href="">
+                                    <span>Đồ uống pha chế</span>
+                                </a>
+                            </div>
+
+                            <div class="col l-1-2 m-2-4 c-2-4">
+                                <img src="./imgs/category/category9.webp" alt="" class="Hotcategory-product__img">
+                                <a href="">
+                                    <span>Ăn vặt cho bé</span>
+                                </a>
+                            </div>
+
+                            <div class="col l-1-2 m-2-4 c-2-4">
+                                <img src="./imgs/category/category10.webp" alt="" class="Hotcategory-product__img">
+                                <a href="">
+                                    <span>Gia dụng nhà bếp</span>
+                                </a>
+                            </div>
+                             
+                             
+     
+                             
+                         </div>
+                     </div>
+
+                </div>
+
+                <div class="Hotcategory__sale">
+                       <div class="row">
+                           <div class="col l-4 m-80 c-80">
+                                <div class="Hotcategory__sale__wrap">
+                                    <img src="./imgs/category/banner3_1.webp" alt="" class="Hotcategory__sale__img">
+                                    <div class="opacity"></div>
+                                </div>
+                           </div>
+
+                           <div class="col l-4 m-80 c-80">
+                            <div class="Hotcategory__sale__wrap">
+                                <img src="./imgs/category/banner3_2.webp" alt="" class="Hotcategory__sale__img">
+                                <div class="opacity"></div>
+                            </div>
+                           </div>
+
+                           <div class="col l-4 m-80 c-80">
+                            <div class="Hotcategory__sale__wrap">
+                                <img src="./imgs/category/banner3_3.webp" alt="" class="Hotcategory__sale__img">
+                                <div class="opacity"></div>
+                            </div>
+                            </div>
+                           
+                       </div>
+                </div>
+                
+                <div class="flash_sale">
+
+
+                    <div class="flash_sale-control">
+                        <div class="sale-control__prew"><i class="fa-solid fa-angle-left"></i></div>
+                        <div class="sale-control__next"><i class="fa-solid fa-angle-right"></i></div>
+                    </div>
+
+                    <div class="flash_sale__head">
+                        <i class="fa-solid fa-bolt"></i>
+                        <h1>Flash sale - Phụ kiện công nghệ</h1>
+                    </div>
+                    <div class="flash_sale__body">
+                        <div class="row nowrap">
+                            <div class="col l-2-4 m-4 c-6">
+                        
+                                <div class="flash_sale__box">
+                                    <a href="">
+                                        <img src="./imgs/container_flashsale/container-flashsale2/LoaJBLno1.jpg" class="flash_sale__img" alt="">
+                                    </a>
+                                    <div class="flash_sale__content">
+                                        <span class="flash_sale__content__title"><a href="">Loa Bluetooth JBL Go 3 Xanh Blue (JBLGO3BLU)</a></span>
+    
+                                        <div class="flash_sale__content__price-wrap">
+                                            <span class="flash_sale__content__price">990 000 </span>
+                                            <span class="flash_sale__content__price__sale"></span>
+                                        </div>
+    
+                                        <div class="flash_sale__content__price__quantity">
+                                            CÒN HÀNG
+                                            <!-- <div class="flash_sale__content__price__quantity__top width--60">
+                                                Đã Bán : 10
+                                            </div> -->
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <!-- <div class="flash_sale__box-sale">
+                                    -15%
+                                </div> -->
+
+                            </div>
+
+                            <div class="col l-2-4 m-4 c-6">
+                        
+                                <div class="flash_sale__box">
+                                    <a href="">
+                                        <img src="./imgs/container_flashsale/flashsale1.webp" class="flash_sale__img" alt="">
+                                    </a>
+                                    <div class="flash_sale__content">
+                                        <span class="flash_sale__content__title"><a href="">Phim ống kính full-frame Baseus cho iP 12 mini 5.4 / 12 6.1 / 12 Pro 6.1 / 12 Pro Max 6.7 inch 2020 (2 chiếc / gói) Trong suốt</a></span>
+    
+                                        <div class="flash_sale__content__price-wrap">
+                                            <span class="flash_sale__content__price">299 000 </span>
+                                            <span class="flash_sale__content__price__sale">350 000 </span>
+                                        </div>
+    
+                                        <div class="flash_sale__content__price__quantity">
+                                            <div class="flash_sale__content__price__quantity__top width--90">
+                                                Sắp Cháy Hàng
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="flash_sale__box-sale">
+                                        -15%
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col l-2-4 m-4 c-6">
+                        
+                                <div class="flash_sale__box">
+                                    <a href="">
+                                        <img src="./imgs/container_flashsale/flashsale2.webp" class="flash_sale__img" alt="">
+                                    </a>
+                                    <div class="flash_sale__content">
+                                        <span class="flash_sale__content__title"><a href="">Ốp lưng Baseus Wing cho Mate 40, ProMate 40 Pro</a></span>
+    
+                                        <div class="flash_sale__content__price-wrap">
+                                            <span class="flash_sale__content__price">250 000 </span>
+                                            <span class="flash_sale__content__price__sale">350 000 </span>
+                                        </div>
+    
+                                        <div class="flash_sale__content__price__quantity">
+                                            <div class="flash_sale__content__price__quantity__top width--40">
+                                                Đã Bán : 9
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="flash_sale__box-sale">
+                                        -17%
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col l-2-4 m-4 c-6">
+                        
+                                <div class="flash_sale__box">
+                                    <a href="">
+                                        <img src="./imgs/container_flashsale/flashsale3.webp" class="flash_sale__img" alt="">
+                                    </a>
+                                    <div class="flash_sale__content">
+                                        <span class="flash_sale__content__title"><a href="">Cáp sạc SuperCharge cho đèn hình giọt nước Baseus cho Type-C 66W</a></span>
+    
+                                        <div class="flash_sale__content__price-wrap">
+                                            <span class="flash_sale__content__price">399 000 </span>
+                                            <span class="flash_sale__content__price__sale">550 000 </span>
+                                        </div>
+    
+                                        <div class="flash_sale__content__price__quantity">
+                                            <div class="flash_sale__content__price__quantity__top width--60">
+                                                Đã Bán : 13
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="flash_sale__box-sale">
+                                        -27%
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col l-2-4 m-4 c-6">
+                        
+                                <div class="flash_sale__box">
+                                    <a href="">
+                                        <img src="./imgs/container_flashsale/flashsale4.webp" class="flash_sale__img" alt="">
+                                    </a>
+                                    <div class="flash_sale__content">
+                                        <span class="flash_sale__content__title"><a href="">Cáp dữ liệu một cho ba USB sang M + L + C 3.5A 1.2m</a></span>
+    
+                                        <div class="flash_sale__content__price-wrap">
+                                            <span class="flash_sale__content__price">450 000 </span>
+                                            <span class="flash_sale__content__price__sale">600 000 </span>
+                                        </div>
+    
+                                        <div class="flash_sale__content__price__quantity">
+                                            <div class="flash_sale__content__price__quantity__top width--60">
+                                                Đã Bán : 18
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="flash_sale__box-sale">
+                                        -25%
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col l-2-4 m-4 c-6">
+                        
+                                <div class="flash_sale__box">
+                                    <a href="">
+                                        <img src="./imgs/container_flashsale/flashsale5.webp" class="flash_sale__img" alt="">
+                                    </a>
+                                    <div class="flash_sale__content">
+                                        <span class="flash_sale__content__title"><a href="">Tai nghe không dây Baseus Encok W06 </a></span>
+    
+                                        <div class="flash_sale__content__price-wrap">
+                                            <span class="flash_sale__content__price">3.850.000 </span>
+                                            <span class="flash_sale__content__price__sale"> 4.850.000 </span>
+                                        </div>
+    
+                                        <div class="flash_sale__content__price__quantity">
+                                            <div class="flash_sale__content__price__quantity__top width--40">
+                                                Đã Bán : 9
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="flash_sale__box-sale">
+                                        -21%
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col l-2-4 m-4 c-6">
+                        
+                                <div class="flash_sale__box">
+                                    <a href="">
+                                        <img src="./imgs/container_flashsale/flashsale6.webp" class="flash_sale__img" alt="">
+                                    </a>
+                                    <div class="flash_sale__content">
+                                        <span class="flash_sale__content__title"><a href="">Cáp dữ liệu sạc nhanh an toàn từ tính Baseus Zinc Type-C đến iP PD 20W</a></span>
+    
+                                        <div class="flash_sale__content__price-wrap">
+                                            <span class="flash_sale__content__price">550 000 </span>
+                                            <span class="flash_sale__content__price__sale">750 000 </span>
+                                        </div>
+    
+                                        <div class="flash_sale__content__price__quantity">
+                                            <!-- <div class="flash_sale__content__price__quantity__top width--80">
+                                                Đã Bán : 20
+                                            </div> -->
+                                           CÒN HÀNG
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="flash_sale__box-sale">
+                                        -27%
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col l-2-4 m-4 c-6">
+                        
+                                <div class="flash_sale__box">
+                                    <a href="">
+                                        <img src="./imgs/container_flashsale/flashsale7.webp" class="flash_sale__img" alt="">
+                                    </a>
+                                    <div class="flash_sale__content">
+                                        <span class="flash_sale__content__title"><a href="">
+                                            Cáp từ tính kẽm Baseus Type-C 100W (20V 5A) 
+                                        </a></span>
+    
+                                        <div class="flash_sale__content__price-wrap">
+                                            <span class="flash_sale__content__price">350 000 </span>
+                                            <span class="flash_sale__content__price__sale">550 000 </span>
+                                        </div>
+    
+                                        <div class="flash_sale__content__price__quantity">
+                                            CÒN HÀNG
+                                           
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="flash_sale__box-sale">
+                                        -36%
+                                    </div>
+                                </div>
+
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bộ sưu tập - Collection -->
+
+                <div class="ModelFrame">
+                   <h1 class="ModelFrame-title">BỘ SƯU TẬP</h1>
+                    
+                   <div class="ModelFrame-wrap">
+                        <div class="row no-gutters">
+                            <div class="col l-3 m-6 c-6">
+                                <a href="#">
+                                    <div class="ModelFrame__products">
+                                        <h3 class="ModelFrame__products__title">Decor - Nội thất</h3>
+                                        <span>( 21 Sản phẩm )</span>
+                                        <div class="ModelFrame__products__boxImg">
+                                            <img src="./imgs/collection/colect1.webp" alt="" class="ModelFrame__products__minImg">
+                                            <img src="./imgs/collection/colect2.webp" alt="" class="ModelFrame__products__minImg">
+                                            <img src="./imgs/collection/colect3.webp" alt="" class="ModelFrame__products__minImg">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-3 m-6 c-6">
+                                <a href="#">
+                                    <div class="ModelFrame__products">
+                                        <h3 class="ModelFrame__products__title">Gia dụng nhà bếp</h3>
+                                        <span>( 14 Sản phẩm )</span>
+                                        <div class="ModelFrame__products__boxImg">
+                                            <img src="./imgs/collection/colect4.webp" alt="" class="ModelFrame__products__minImg">
+                                            <img src="./imgs/collection/colect5.webp" alt="" class="ModelFrame__products__minImg">
+                                            <img src="./imgs/collection/colect6.webp" alt="" class="ModelFrame__products__minImg">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-3 m-6 c-6">
+                                <a href="#">
+                                    <div class="ModelFrame__products">
+                                        <h3 class="ModelFrame__products__title">Phụ kiện điện tử</h3>
+                                        <span>( 8 Sản phẩm )</span>
+                                        <div class="ModelFrame__products__boxImg">
+                                            <img src="./imgs/collection/colect7.webp" alt="" class="ModelFrame__products__minImg">
+                                            <img src="./imgs/collection/colect8.webp" alt="" class="ModelFrame__products__minImg">
+                                            <img src="./imgs/collection/colect9.webp" alt="" class="ModelFrame__products__minImg">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-3 m-6 c-6">
+                                <a href="#">
+                                    <div class="ModelFrame__products">
+                                        <h3 class="ModelFrame__products__title">Loa không dây</h3>
+                                        <span>( 20 Sản phẩm )</span>
+                                        <div class="ModelFrame__products__boxImg">
+                                            <img src="./imgs/collection/colect10.webp" alt="" class="ModelFrame__products__minImg">
+                                            <img src="./imgs/collection/colect11.webp" alt="" class="ModelFrame__products__minImg">
+                                            <img src="./imgs/collection/colect12.webp" alt="" class="ModelFrame__products__minImg">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row no-gutters ">
+                            <div class="col l-3 m-6 c-6">
+                                <a href="#">
+                                    <div class="ModelFrame__products">
+                                        <h3 class="ModelFrame__products__title">Đồ chơi cho bé</h3>
+                                        <span>( 6 Sản phẩm )</span>
+                                        <div class="ModelFrame__products__boxImg">
+                                            <img src="./imgs/collection/colect13.webp" alt="" class="ModelFrame__products__minImg">
+                                            <img src="./imgs/collection/colect14.webp" alt="" class="ModelFrame__products__minImg">
+                                            <img src="./imgs/collection/colect15.webp" alt="" class="ModelFrame__products__minImg">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-3 m-6 c-6">
+                                <a href="#">
+                                    <div class="ModelFrame__products">
+                                        <h3 class="ModelFrame__products__title">Lót ngủ, đệm ngủ</h3>
+                                        <span>( 25 Sản phẩm )</span>
+                                        <div class="ModelFrame__products__boxImg">
+                                            <img src="./imgs/collection/colect16.webp" alt="" class="ModelFrame__products__minImg">
+                                            <img src="./imgs/collection/colect17.webp" alt="" class="ModelFrame__products__minImg">
+                                            <img src="./imgs/collection/colect18.webp" alt="" class="ModelFrame__products__minImg">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-3 m-6 c-6">
+                                <a href="#">
+                                    <div class="ModelFrame__products">
+                                        <h3 class="ModelFrame__products__title">Dây chuyền Epoxy</h3>
+                                        <span>( 21 Sản phẩm )</span>
+                                        <div class="ModelFrame__products__boxImg">
+                                            <img src="./imgs/collection/colect19.webp" alt="" class="ModelFrame__products__minImg">
+                                            <img src="./imgs/collection/colect20.webp" alt="" class="ModelFrame__products__minImg">
+                                            <img src="./imgs/collection/colect21.webp" alt="" class="ModelFrame__products__minImg">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-3 m-6 c-6">
+                                <a href="#">
+                                    <div class="ModelFrame__products">
+                                        <h3 class="ModelFrame__products__title">Light box</h3>
+                                        <span>( 22 Sản phẩm )</span>
+                                        <div class="ModelFrame__products__boxImg">
+                                            <img src="./imgs/collection/colect22.webp" alt="" class="ModelFrame__products__minImg">
+                                            <img src="./imgs/collection/colect23.webp" alt="" class="ModelFrame__products__minImg">
+                                            <img src="./imgs/collection/colect24.webp" alt="" class="ModelFrame__products__minImg">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                   </div>
+                </div>
+                
+                <!-- Sampleproduct -Chăm sóc nhà cửa -->
+                <div class="ModelFrame">
+                    <a class="ModelFrame-title__link" href="#">
+                        <h1 class="ModelFrame-title OnHover">CHĂM SÓC NHÀ CỬA</h1>
+                    </a>
+
+                    <div class="Products-wrap">
+                        <div class="row">
+                            <div class="col l-2 m-4 c-6">
+                                <div class="ProductsItem">
+                                    <a href="#">
+                                        <div class="ProductsItem__img-box">
+                                            <img src="./imgs/helpHouse/helpHouse1.webp" alt="" class="ProductsItem__img">
+                                        </div>
+                                        <span class="ProductsItem__name">Máy ép trái cây di động thiết kế ép hai chiều kiểu dáng thời trang</span>
+                                    </a>
+                                    <div class="ProductsItem__price">
+                                        <span class="ProductsItem__price--current">91 000 </span>
+                                        <span class="ProductsItem__price--ago">102 000 </span>
+                                    </div>
+                                    <div class="ProductsItem-sale">
+                                        -25%
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col l-2 m-4 c-6">
+                                <div class="ProductsItem">
+                                    <a href="#">
+                                        <div class="ProductsItem__img-box">
+                                            <img src="./imgs/helpHouse/helpHouse2.webp" alt="" class="ProductsItem__img">
+                                        </div>
+                                        <span class="ProductsItem__name">Hộp cơm,hộp đựng cơm văn phòng giữ nhiệt 2 tầng inox</span>
+                                    </a>
+                                    <div class="ProductsItem__price">
+                                        <span class="ProductsItem__price--current">41 000 </span>
+                                        <span class="ProductsItem__price--ago">102 000 </span>
+                                    </div>
+                                    <div class="ProductsItem-sale">
+                                        -25%
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col l-2 m-4 c-6">
+                                <div class="ProductsItem">
+                                    <a href="#">
+                                        <div class="ProductsItem__img-box">
+                                            <img src="./imgs/helpHouse/helpHouse3.webp" alt="" class="ProductsItem__img">
+                                        </div>
+                                        <span class="ProductsItem__name">Máy ép trái cây</span>
+                                    </a>
+                                    <div class="ProductsItem__price">
+                                        <span class="ProductsItem__price--current">91 000 </span>
+                                        <span class="ProductsItem__price--ago">102 000 </span>
+                                    </div>
+                                    <div class="ProductsItem-sale">
+                                        -25%
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col l-2 m-4 c-6">
+                                <div class="ProductsItem">
+                                    <a href="#">
+                                        <div class="ProductsItem__img-box">
+                                            <img src="./imgs/helpHouse/helpHouse4.webp" alt="" class="ProductsItem__img">
+                                        </div>
+                                        <span class="ProductsItem__name">Cân Chia Thực Phẩm Nhà Bếp</span>
+                                    </a>
+                                    <div class="ProductsItem__price">
+                                        <span class="ProductsItem__price--current">91 000 </span>
+                                        <span class="ProductsItem__price--ago">120 000 </span>
+                                    </div>
+                                    <div class="ProductsItem-sale">
+                                        -25%
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col l-2 m-4 c-6">
+                                <div class="ProductsItem">
+                                    <a href="#">
+                                        <div class="ProductsItem__img-box">
+                                            <img src="./imgs/helpHouse/helpHouse5.webp" alt="" class="ProductsItem__img">
+                                        </div>
+                                        <span class="ProductsItem__name">Cân điện tử tiểu ly 200g - 0,01g </span>
+                                    </a>
+                                    <div class="ProductsItem__price">
+                                        <span class="ProductsItem__price--current">79 000 </span>
+                                        <span class="ProductsItem__price--ago">102 000 </span>
+                                    </div>
+                                    <div class="ProductsItem-sale">
+                                        -25%
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col l-2 m-4 c-6">
+                                <div class="ProductsItem">
+                                    <a href="#">
+                                        <div class="ProductsItem__img-box">
+                                            <img src="./imgs/helpHouse/helpHouse6.webp" alt="" class="ProductsItem__img">
+                                        </div>
+                                        <span class="ProductsItem__name">Gắp Mắt Thơm, Khóm, Dứa</span>
+                                    </a>
+                                    <div class="ProductsItem__price">
+                                        <span class="ProductsItem__price--current">12 500 </span>
+                                        <span class="ProductsItem__price--ago">15 000 </span>
+                                    </div>
+                                    <div class="ProductsItem-sale">
+                                        -25%
+                                    </div>
+                                </div>
+                            </div>
+
+                    
+                        </div>
+                        <div class="row">
+                            <div class="col l-2 m-4 c-6">
+                                <div class="ProductsItem">
+                                    <a href="#">
+                                        <div class="ProductsItem__img-box">
+                                            <img src="./imgs/helpHouse/helpHouse7.webp" alt="" class="ProductsItem__img">
+                                        </div>
+                                        <span class="ProductsItem__name">Set kệ và lọ hũ đựng gia vị thủy tinh xoay 360 độ</span>
+                                    </a>
+                                    <div class="ProductsItem__price">
+                                        <span class="ProductsItem__price--current">199 000 </span>
+                                        <span class="ProductsItem__price--ago">250 000 </span>
+                                    </div>
+                                    <div class="ProductsItem-sale">
+                                        -25%
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col l-2 m-4 c-6">
+                                <div class="ProductsItem">
+                                    <a href="#">
+                                        <div class="ProductsItem__img-box">
+                                            <img src="./imgs/helpHouse/helpHouse8.webp" alt="" class="ProductsItem__img">
+                                        </div>
+                                        <span class="ProductsItem__name">Nước Thông Cống Hando Xuất Khẩu chai 1L</span>
+                                    </a>
+                                    <div class="ProductsItem__price">
+                                        <span class="ProductsItem__price--current">48 500</span>
+                                        <span class="ProductsItem__price--ago">30 000 </span>
+                                    </div>
+                                    <div class="ProductsItem-sale">
+                                        -25%
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col l-2 m-4 c-6">
+                                <div class="ProductsItem">
+                                    <a href="#">
+                                        <div class="ProductsItem__img-box">
+                                            <img src="./imgs/helpHouse/helpHouse9.webp" alt="" class="ProductsItem__img">
+                                        </div>
+                                        <span class="ProductsItem__name">Xịt lau kính Cif 520ml</span>
+                                    </a>
+                                    <div class="ProductsItem__price">
+                                        <span class="ProductsItem__price--current">33 000 </span>
+                                        <span class="ProductsItem__price--ago">100 000 </span>
+                                    </div>
+                                    <div class="ProductsItem-sale">
+                                        -25%
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col l-2 m-4 c-6">
+                                <div class="ProductsItem">
+                                    <a href="#">
+                                        <div class="ProductsItem__img-box">
+                                            <img src="./imgs/helpHouse/helpHouse10.webp" alt="" class="ProductsItem__img">
+                                        </div>
+                                        <span class="ProductsItem__name">Kem tẩy đa năng CIF 690g</span>
+                                    </a>
+                                    <div class="ProductsItem__price">
+                                        <span class="ProductsItem__price--current">40 000 </span>
+                                        <span class="ProductsItem__price--ago">102 000 </span>
+                                    </div>
+                                    <div class="ProductsItem-sale">
+                                        -25%
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col l-2 m-4 c-6">
+                                <div class="ProductsItem">
+                                    <a href="#">
+                                        <div class="ProductsItem__img-box">
+                                            <img src="./imgs/helpHouse/helpHouse11.webp" alt="" class="ProductsItem__img">
+                                        </div>
+                                        <span class="ProductsItem__name">Chất tẩy rửa bồn cầu và nhà tắm Vim chai 900ml</span>
+                                    </a>
+                                    <div class="ProductsItem__price">
+                                        <span class="ProductsItem__price--current">32 400 </span>
+                                        <span class="ProductsItem__price--ago">36 600 </span>
+                                    </div>
+                                    <div class="ProductsItem-sale">
+                                        -25%
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col l-2 m-4 c-6">
+                                <div class="ProductsItem">
+                                    <a href="#">
+                                        <div class="ProductsItem__img-box">
+                                            <img src="./imgs/helpHouse/helpHouse12.webp" alt="" class="ProductsItem__img">
+                                        </div>
+                                        <span class="ProductsItem__name">Nước rửa chén bát Sunlight thiên nhiên muối khoáng và lô hội chai 750g</span>
+                                    </a>
+                                    <div class="ProductsItem__price">
+                                        <span class="ProductsItem__price--current">29 000 </span>
+                                        <span class="ProductsItem__price--ago">102 000 </span>
+                                    </div>
+                                    <div class="ProductsItem-sale">
+                                        -25%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="Hotcategory__sale">
+                    <div class="row">
+                        <div class="col l-3 m-80 c-80">
+                             <div class="Hotcategory__sale__wrap">
+                                 <img src="./imgs/helpHouse/helphouse2/helphouse2_1.webp" alt="" class="Hotcategory__sale__img">
+                                 <div class="opacity"></div>
+                             </div>
+                        </div>
+
+                        <div class="col l-3 m-80 c-80">
+                         <div class="Hotcategory__sale__wrap">
+                             <img src="./imgs/helpHouse/helphouse2/helphouse2_2.webp" alt="" class="Hotcategory__sale__img">
+                             <div class="opacity"></div>
+                         </div>
+                        </div>
+
+                        <div class="col l-3 m-80 c-80">
+                         <div class="Hotcategory__sale__wrap">
+                             <img src="./imgs/helpHouse/helphouse2/helphouse2_3.webp" alt="" class="Hotcategory__sale__img">
+                             <div class="opacity"></div>
+                         </div>
+                         </div>
+                        
+                         <div class="col l-3 m-80 c-80">
+                            <div class="Hotcategory__sale__wrap">
+                                <img src="./imgs/helpHouse/helphouse2/helphouse2_4.webp" alt="" class="Hotcategory__sale__img">
+                                <div class="opacity"></div>
+                            </div>
+                            </div>
+                    </div>
+             </div>
+
+             <!-- Gia Dụng Bếp -->
+             <div class="ModelFrame">
+                <a class="ModelFrame-title__link" href="#">
+                    <h1 class="ModelFrame-title OnHover">GIA DỤNG NHÀ BẾP</h1>
+                </a>
+
+                <div class="Products-wrap">
+                    <div class="row">
+                        <div class="col l-2 m-4 c-6">
+                            <div class="ProductsItem">
+                                <a href="#">
+                                    <div class="ProductsItem__img-box">
+                                        <img src="./imgs/helpHouse/helpHouse1.webp" alt="" class="ProductsItem__img">
+                                    </div>
+                                    <span class="ProductsItem__name">Máy ép trái cây di động thiết kế ép hai chiều kiểu dáng thời trang</span>
+                                </a>
+                                <div class="ProductsItem__price">
+                                    <span class="ProductsItem__price--current">91 000 </span>
+                                    <span class="ProductsItem__price--ago">102 000 </span>
+                                </div>
+                                <div class="ProductsItem-sale">
+                                    -25%
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col l-2 m-4 c-6">
+                            <div class="ProductsItem">
+                                <a href="#">
+                                    <div class="ProductsItem__img-box">
+                                        <img src="./imgs/helpHouse/helpHouse2.webp" alt="" class="ProductsItem__img">
+                                    </div>
+                                    <span class="ProductsItem__name">Hộp cơm,hộp đựng cơm văn phòng giữ nhiệt 2 tầng inox</span>
+                                </a>
+                                <div class="ProductsItem__price">
+                                    <span class="ProductsItem__price--current">41 000 </span>
+                                    <span class="ProductsItem__price--ago">102 000 </span>
+                                </div>
+                                <div class="ProductsItem-sale">
+                                    -25%
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col l-2 m-4 c-6">
+                            <div class="ProductsItem">
+                                <a href="#">
+                                    <div class="ProductsItem__img-box">
+                                        <img src="./imgs/helpHouse/helpHouse3.webp" alt="" class="ProductsItem__img">
+                                    </div>
+                                    <span class="ProductsItem__name">Máy ép trái cây</span>
+                                </a>
+                                <div class="ProductsItem__price">
+                                    <span class="ProductsItem__price--current">91 000 </span>
+                                    <span class="ProductsItem__price--ago">102 000 </span>
+                                </div>
+                                <div class="ProductsItem-sale">
+                                    -25%
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col l-2 m-4 c-6">
+                            <div class="ProductsItem">
+                                <a href="#">
+                                    <div class="ProductsItem__img-box">
+                                        <img src="./imgs/helpHouse/helpHouse4.webp" alt="" class="ProductsItem__img">
+                                    </div>
+                                    <span class="ProductsItem__name">Cân Chia Thực Phẩm Nhà Bếp</span>
+                                </a>
+                                <div class="ProductsItem__price">
+                                    <span class="ProductsItem__price--current">91 000 </span>
+                                    <span class="ProductsItem__price--ago">120 000 </span>
+                                </div>
+                                <div class="ProductsItem-sale">
+                                    -25%
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col l-2 m-4 c-6">
+                            <div class="ProductsItem">
+                                <a href="#">
+                                    <div class="ProductsItem__img-box">
+                                        <img src="./imgs/helpHouse/helpHouse5.webp" alt="" class="ProductsItem__img">
+                                    </div>
+                                    <span class="ProductsItem__name">Cân điện tử tiểu ly 200g - 0,01g </span>
+                                </a>
+                                <div class="ProductsItem__price">
+                                    <span class="ProductsItem__price--current">79 000 </span>
+                                    <span class="ProductsItem__price--ago">102 000 </span>
+                                </div>
+                                <div class="ProductsItem-sale">
+                                    -25%
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col l-2 m-4 c-6">
+                            <div class="ProductsItem">
+                                <a href="#">
+                                    <div class="ProductsItem__img-box">
+                                        <img src="./imgs/helpHouse/helpHouse6.webp" alt="" class="ProductsItem__img">
+                                    </div>
+                                    <span class="ProductsItem__name">Gắp Mắt Thơm, Khóm, Dứa</span>
+                                </a>
+                                <div class="ProductsItem__price">
+                                    <span class="ProductsItem__price--current">12 500 </span>
+                                    <span class="ProductsItem__price--ago">15 000 </span>
+                                </div>
+                                <div class="ProductsItem-sale">
+                                    -25%
+                                </div>
+                            </div>
+                        </div>
+
+                
+                    </div>
+                    <div class="row">
+                        <div class="col l-2 m-4 c-6">
+                            <div class="ProductsItem">
+                                <a href="#">
+                                    <div class="ProductsItem__img-box">
+                                        <img src="./imgs/helpHouse/helpHouse7.webp" alt="" class="ProductsItem__img">
+                                    </div>
+                                    <span class="ProductsItem__name">Set kệ và lọ hũ đựng gia vị thủy tinh xoay 360 độ</span>
+                                </a>
+                                <div class="ProductsItem__price">
+                                    <span class="ProductsItem__price--current">199 000 </span>
+                                    <span class="ProductsItem__price--ago">250 000 </span>
+                                </div>
+                                <div class="ProductsItem-sale">
+                                    -25%
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col l-2 m-4 c-6">
+                            <div class="ProductsItem">
+                                <a href="#">
+                                    <div class="ProductsItem__img-box">
+                                        <img src="./imgs/helpHouse/helpHouse8.webp" alt="" class="ProductsItem__img">
+                                    </div>
+                                    <span class="ProductsItem__name">Nước Thông Cống Hando Xuất Khẩu chai 1L</span>
+                                </a>
+                                <div class="ProductsItem__price">
+                                    <span class="ProductsItem__price--current">48 500</span>
+                                    <span class="ProductsItem__price--ago">30 000 </span>
+                                </div>
+                                <div class="ProductsItem-sale">
+                                    -25%
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col l-2 m-4 c-6">
+                            <div class="ProductsItem">
+                                <a href="#">
+                                    <div class="ProductsItem__img-box">
+                                        <img src="./imgs/helpHouse/helpHouse9.webp" alt="" class="ProductsItem__img">
+                                    </div>
+                                    <span class="ProductsItem__name">Xịt lau kính Cif 520ml</span>
+                                </a>
+                                <div class="ProductsItem__price">
+                                    <span class="ProductsItem__price--current">33 000 </span>
+                                    <span class="ProductsItem__price--ago">100 000 </span>
+                                </div>
+                                <div class="ProductsItem-sale">
+                                    -25%
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col l-2 m-4 c-6">
+                            <div class="ProductsItem">
+                                <a href="#">
+                                    <div class="ProductsItem__img-box">
+                                        <img src="./imgs/helpHouse/helpHouse10.webp" alt="" class="ProductsItem__img">
+                                    </div>
+                                    <span class="ProductsItem__name">Kem tẩy đa năng CIF 690g</span>
+                                </a>
+                                <div class="ProductsItem__price">
+                                    <span class="ProductsItem__price--current">40 000 </span>
+                                    <span class="ProductsItem__price--ago">102 000 </span>
+                                </div>
+                                <div class="ProductsItem-sale">
+                                    -25%
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col l-2 m-4 c-6">
+                            <div class="ProductsItem">
+                                <a href="#">
+                                    <div class="ProductsItem__img-box">
+                                        <img src="./imgs/helpHouse/helpHouse11.webp" alt="" class="ProductsItem__img">
+                                    </div>
+                                    <span class="ProductsItem__name">Chất tẩy rửa bồn cầu và nhà tắm Vim chai 900ml</span>
+                                </a>
+                                <div class="ProductsItem__price">
+                                    <span class="ProductsItem__price--current">32 400 </span>
+                                    <span class="ProductsItem__price--ago">36 600 </span>
+                                </div>
+                                <div class="ProductsItem-sale">
+                                    -25%
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col l-2 m-4 c-6">
+                            <div class="ProductsItem">
+                                <a href="#">
+                                    <div class="ProductsItem__img-box">
+                                        <img src="./imgs/helpHouse/helpHouse12.webp" alt="" class="ProductsItem__img">
+                                    </div>
+                                    <span class="ProductsItem__name">Nước rửa chén bát Sunlight thiên nhiên muối khoáng và lô hội chai 750g</span>
+                                </a>
+                                <div class="ProductsItem__price">
+                                    <span class="ProductsItem__price--current">29 000 </span>
+                                    <span class="ProductsItem__price--ago">102 000 </span>
+                                </div>
+                                <div class="ProductsItem-sale">
+                                    -25%
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Nội thất - DECOR -->
+            <div class="ModelFrame">
+                <a class="ModelFrame-title__link" href="#">
+                    <h1 class="ModelFrame-title OnHover">NỘI THẤT - DECOR</h1>
+                </a>
+
+                <div class="Products-wrap">
+                    <div class="row">
+                        <div class="col l-2 m-4 c-6">
+                            <div class="ProductsItem">
+                                <a href="#">
+                                    <div class="ProductsItem__img-box">
+                                        <img src="./imgs/Decor/decor1.webp" alt="" class="ProductsItem__img">
+                                    </div>
+                                    <span class="ProductsItem__name">Tủ đầu giường sang trọng thiết kế tối giản GHS-51707</span>
+                                </a>
+                                <div class="ProductsItem__price">
+                                    <span class="ProductsItem__price--current">1 500 000</span>
+                                    <span class="ProductsItem__price--ago"></span>
+                                </div>
+                               
+                            </div>
+                        </div>
+
+                        <div class="col l-2 m-4 c-6">
+                            <div class="ProductsItem">
+                                <a href="#">
+                                    <div class="ProductsItem__img-box">
+                                        <img src="./imgs/Decor/decor12.webp" alt="" class="ProductsItem__img">
+                                    </div>
+                                    <span class="ProductsItem__name">Tủ đầu giường đẹp thanh lịch GHS-51581</span>
+                                </a>
+                                <div class="ProductsItem__price">
+                                    <span class="ProductsItem__price--current">3 000 000 </span>
+                                    <span class="ProductsItem__price--ago"></span>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div class="col l-2 m-4 c-6">
+                            <div class="ProductsItem">
+                                <a href="#">
+                                    <div class="ProductsItem__img-box">
+                                        <img src="./imgs/Decor/decor3.webp" alt="" class="ProductsItem__img">
+                                    </div>
+                                    <span class="ProductsItem__name">Bàn học sinh bằng gỗ MDF cốt lõi xanh chống ẩm</span>
+                                </a>
+                                <div class="ProductsItem__price">
+                                    <span class="ProductsItem__price--current">3 440 000 </span>
+                                    <span class="ProductsItem__price--ago"></span>
+                                </div>
+                               
+                            </div>
+                        </div>
+
+                        <div class="col l-2 m-4 c-6">
+                            <div class="ProductsItem">
+                                <a href="#">
+                                    <div class="ProductsItem__img-box">
+                                        <img src="./imgs/Decor/decor4.webp" alt="" class="ProductsItem__img">
+                                    </div>
+                                    <span class="ProductsItem__name">Bàn học Tatami ngồi bệt, bàn học gỗ chắc chắn GHC-4605</span>
+                                </a>
+                                <div class="ProductsItem__price">
+                                    <span class="ProductsItem__price--current">999 000 </span>
+                                    <span class="ProductsItem__price--ago"></span>
+                                </div>
+                              
+                            </div>
+                        </div>
+
+                        <div class="col l-2 m-4 c-6">
+                            <div class="ProductsItem">
+                                <a href="#">
+                                    <div class="ProductsItem__img-box">
+                                        <img src="./imgs/Decor/decor5.webp" alt="" class="ProductsItem__img">
+                                    </div>
+                                    <span class="ProductsItem__name">Cân điện tử tiểu ly 200g - 0,01g </span>
+                                </a>
+                                <div class="ProductsItem__price">
+                                    <span class="ProductsItem__price--current">1 179 000 </span>
+                                    <span class="ProductsItem__price--ago"></span>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div class="col l-2 m-4 c-6">
+                            <div class="ProductsItem">
+                                <a href="#">
+                                    <div class="ProductsItem__img-box">
+                                        <img src="./imgs/Decor/decor6.webp" alt="" class="ProductsItem__img">
+                                    </div>
+                                    <span class="ProductsItem__name">Tủ quần áo nhỏ gọn kiểu dáng đơn giản GHS-51681</span>
+                                </a>
+                                <div class="ProductsItem__price">
+                                    <span class="ProductsItem__price--current">3 666 000</span>
+                                    <span class="ProductsItem__price--ago">15 000 </span>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                
+                    </div>
+                    <div class="row">
+                        <div class="col l-2 m-4 c-6">
+                            <div class="ProductsItem">
+                                <a href="#">
+                                    <div class="ProductsItem__img-box">
+                                        <img src="./imgs/Decor/decor7.webp" alt="" class="ProductsItem__img">
+                                    </div>
+                                    <span class="ProductsItem__name">Tủ quần áo cánh mở gỗ công nghiệp cao cấp GHS-51680</span>
+                                </a>
+                                <div class="ProductsItem__price">
+                                    <span class="ProductsItem__price--current">4 000 000</span>
+                                    <span class="ProductsItem__price--ago"></span>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div class="col l-2 m-4 c-6">
+                            <div class="ProductsItem">
+                                <a href="#">
+                                    <div class="ProductsItem__img-box">
+                                        <img src="./imgs/Decor/decor8.webp" alt="" class="ProductsItem__img">
+                                    </div>
+                                    <span class="ProductsItem__name">Bộ Ga chun chăn chần AMD SILKY</span>
+                                </a>
+                                <div class="ProductsItem__price">
+                                    <span class="ProductsItem__price--current">488 500</span>
+                                    <span class="ProductsItem__price--ago"></span>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div class="col l-2 m-4 c-6">
+                            <div class="ProductsItem">
+                                <a href="#">
+                                    <div class="ProductsItem__img-box">
+                                        <img src="./imgs/Decor/decor9.webp" alt="" class="ProductsItem__img">
+                                    </div>
+                                    <span class="ProductsItem__name">Vỏ chăn AMD Confident tencel</span>
+                                </a>
+                                <div class="ProductsItem__price">
+                                    <span class="ProductsItem__price--current">1 333 000 </span>
+                                    <span class="ProductsItem__price--ago"></span>
+                                </div>
+                              
+                            </div>
+                        </div>
+
+                        <div class="col l-2 m-4 c-6">
+                            <div class="ProductsItem">
+                                <a href="#">
+                                    <div class="ProductsItem__img-box">
+                                        <img src="./imgs/Decor/decor10.webp" alt="" class="ProductsItem__img">
+                                    </div>
+                                    <span class="ProductsItem__name">Chăn chần hè Tencel Canada</span>
+                                </a>
+                                <div class="ProductsItem__price">
+                                    <span class="ProductsItem__price--current">400 000 </span>
+                                    <span class="ProductsItem__price--ago"></span>
+                                </div>
+                               
+                            </div>
+                        </div>
+
+                        <div class="col l-2 m-4 c-6">
+                            <div class="ProductsItem">
+                                <a href="#">
+                                    <div class="ProductsItem__img-box">
+                                        <img src="./imgs/Decor/decor11.webp" alt="" class="ProductsItem__img">
+                                    </div>
+                                    <span class="ProductsItem__name">Chăn chần AMD Dream họa tiết</span>
+                                </a>
+                                <div class="ProductsItem__price">
+                                    <span class="ProductsItem__price--current">1 932 400 </span>
+                                    <span class="ProductsItem__price--ago"></span>
+                                </div>
+                               
+                            </div>
+                        </div>
+
+
+                        <div class="col l-2 m-4 c-6">
+                            <div class="ProductsItem">
+                                <a href="#">
+                                    <div class="ProductsItem__img-box">
+                                        <img src="./imgs/Decor/decor12.webp" alt="" class="ProductsItem__img">
+                                    </div>
+                                    <span class="ProductsItem__name">Giá treo A HANGER 2FM trắng</span>
+                                </a>
+                                <div class="ProductsItem__price">
+                                    <span class="ProductsItem__price--current">2 999 000 </span>
+                                    <span class="ProductsItem__price--ago"></span>
+                                </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--VIDEO REVIEW -  SẢN PHẨM  -->
+            <div class="ModelFrame">
+                <a class="ModelFrame-title__link" href="#">
+                    <h1 class="ModelFrame-title OnHover">VIDEO REVIEW -  SẢN PHẨM</h1>
+                </a>
+                <div class="Products-wrap Products-wrap__mobileTablet">
+                    <div class="row">
+                        <div class="col l-4 m-40 c-80">
+                           <div class="Products-box">
+                                <img src="./imgs/reviewproduct/review11.webp" alt="" class="Products-box__img">
+
+                                <div class="Products-box__img-icon">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+
+                                 <iframe hidden src="https://www.youtube.com/embed/ntTmCr_x0Pc" frameborder="0" class="model-video__boxx"></iframe>
+
+                           </div>
+
+                           <span class="Products-box__nameproduct">Review Nồi Chiên Không Dầu Điện Tử 5.5L BlueStone AFB-5880</span>
+                        </div>
+
+                        <div class="col l-4 m-40 c-80">
+                            <div class="Products-box">
+                                 <img src="./imgs/reviewproduct/review12.webp" alt="" class="Products-box__img">
+ 
+                                 <div class="Products-box__img-icon">
+                                     <i class="fa-solid fa-play"></i>
+                                 </div>
+                                 <iframe hidden src="https://www.youtube.com/embed/HRYNfCAV15I" frameborder="0" class="model-video__boxx"></iframe>
+
+                            </div>
+                            <span class="Products-box__nameproduct">Trên tay máy xay sinh tố cầm tay Lock&Lock - Cùng review với Mew nhé</span>
+                         </div>
+
+
+                         <div class="col l-4 m-40 c-80">
+                            <div class="Products-box">
+                                 <img src="./imgs/reviewproduct/review13.webp" alt="" class="Products-box__img">
+ 
+                                 <div class="Products-box__img-icon">
+                                     <i class="fa-solid fa-play"></i>
+                                 </div>
+                                 <iframe hidden src="https://www.youtube.com/embed/cyqT_hW_BM8" frameborder="0" class="model-video__boxx"></iframe>
+
+                            </div>
+ 
+                            <span class="Products-box__nameproduct">Review máy ép trái cây MewFruit - món quà có 1 không 2 đến từ Mew Smart</span>
+                         </div>
+
+                
+                    </div>
+                    
+                </div>
+            </div>
+            <!-- MEW MALL & Thương Hiệu -->
+
+            <div class="ModelFrame">
+                <a class="ModelFrame-title__link" href="#">
+                    <h1 class="ModelFrame-title OnHover">MEW MALL & THƯƠNG HIỆU</h1>
+                </a>
+
+                <div class="Products-wrap">
+                    <div class="row">
+                        <div class="col l-4 m-4 c-12">
+                            <div class="Products-img-box">
+                                <img src="./imgs/localbrand/brand1.webp" alt="" class="Products-imgitem1">
+                                <img src="./imgs/localbrand/brand2.webp" alt="" class="Products-imgitem2">
+                            </div>
+                        </div>
+                        <div class="col l-8 m-8 c-12">
+                            <div class="Products-container Products-wrap__mobileTablet">
+                                <div class="row">
+                                    <div class="col l-2-4 m-4 c-6">
+                                        <div class="ProductsItem">
+                                            <a href="#">
+                                                <div class="ProductsItem__img-box">
+                                                    <img src="./imgs/localbrand/brandproduct1.webp" alt="" class="ProductsItem__img">
+                                                </div>
+                                                <span class="ProductsItem__name ProductsItem__name2">Ưu đãi đến 30%</span>
+                                            </a>
+                                            
+                                        </div>
+                                    </div>
+            
+                                    <div class="col l-2-4 m-4 c-6">
+                                        <div class="ProductsItem">
+                                            <a href="#">
+                                                <div class="ProductsItem__img-box">
+                                                    <img src="./imgs/localbrand/brandproduct2.webp" alt="" class="ProductsItem__img">
+                                                </div>
+                                                <span class="ProductsItem__name ProductsItem__name2">Săn deal 0 đồng</span>
+                                            </a>
+                                            
+                                        </div>
+                                    </div>
+            
+                                    <div class="col l-2-4 m-4 c-6">
+                                        <div class="ProductsItem">
+                                            <a href="#">
+                                                <div class="ProductsItem__img-box">
+                                                    <img src="./imgs/localbrand/brandproduct3.webp" alt="" class="ProductsItem__img">
+                                                </div>
+                                                <span class="ProductsItem__name ProductsItem__name2">Siêu khuyến mãi 50%</span>
+                                            </a>
+                                            
+                                        </div>
+                                    </div>
+            
+                                    <div class="col l-2-4 m-4 c-6">
+                                        <div class="ProductsItem">
+                                            <a href="#">
+                                                <div class="ProductsItem__img-box">
+                                                    <img src="./imgs/localbrand/brandproduct4.webp" alt="" class="ProductsItem__img">
+                                                </div>
+                                                <span class="ProductsItem__name ProductsItem__name2">Mua là có quà</span>
+                                            </a>
+                                            
+                                        </div>
+                                    </div>
+            
+                                    <div class="col l-2-4 m-4 c-6">
+                                        <div class="ProductsItem">
+                                            <a href="#">
+                                                <div class="ProductsItem__img-box">
+                                                    <img src="./imgs/localbrand/brandproduct5.webp" alt="" class="ProductsItem__img">
+                                                </div>
+                                                <span class="ProductsItem__name ProductsItem__name2">Free ship 50k</span>
+                                            </a>
+                                            
+                                        </div>
+                                    </div>
+            
+                                </div>
+                                <div class="row">
+                                    <div class="col l-2-4 m-4 c-6">
+                                        <div class="ProductsItem">
+                                            <a href="#">
+                                                <div class="ProductsItem__img-box">
+                                                    <img src="./imgs/localbrand/brandproduct6.webp" alt="" class="ProductsItem__img">
+                                                </div>
+                                                <span class="ProductsItem__name ProductsItem__name2">Tóc đẹp chuẩn salon</span>
+                                            </a>
+                                         
+                                        </div>
+                                    </div>
+            
+                                    <div class="col l-2-4 m-4 c-6">
+                                        <div class="ProductsItem">
+                                            <a href="#">
+                                                <div class="ProductsItem__img-box">
+                                                    <img src="./imgs/localbrand/brandproduct7.webp" alt="" class="ProductsItem__img">
+                                                </div>
+                                                <span class="ProductsItem__name ProductsItem__name2">Ưu đãi cuối tuần 60%</span>
+                                            </a>
+                                           
+                                        </div>
+                                    </div>
+            
+                                    <div class="col l-2-4 m-4 c-6">
+                                        <div class="ProductsItem">
+                                            <a href="#">
+                                                <div class="ProductsItem__img-box">
+                                                    <img src="./imgs/localbrand/brandproduct8.webp" alt="" class="ProductsItem__img">
+                                                </div>
+                                                <span class="ProductsItem__name ProductsItem__name2">Siêu ưu đãi - Mừng sinh nhật</span>
+                                            </a>
+                                          
+                                        </div>
+                                    </div>
+            
+                                    <div class="col l-2-4 m-4 c-6">
+                                        <div class="ProductsItem">
+                                            <a href="#">
+                                                <div class="ProductsItem__img-box">
+                                                    <img src="./imgs/localbrand/brandproduct9.webp" alt="" class="ProductsItem__img">
+                                                </div>
+                                                <span class="ProductsItem__name ProductsItem__name2">Tặng gối Durex Jeans</span>
+                                            </a>
+                                         
+                                        </div>
+                                    </div>
+            
+                                    <div class="col l-2-4 m-4 c-6">
+                                        <div class="ProductsItem">
+                                            <a href="#">
+                                                <div class="ProductsItem__img-box">
+                                                    <img src="./imgs/localbrand/brandproduct10.webp" alt="" class="ProductsItem__img">
+                                                </div>
+                                                <span class="ProductsItem__name ProductsItem__name2">Siêu sale vô vàn</span>
+                                            </a>
+                                           
+                                        </div>
+                                    </div>
+            
+            
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <!-- SỨC KHỎE - CÔNG NGHỆ -->
+
+
+            </div>
+            <!-- GALLERY -->
+            <div class="gallery">
+
+                <div class="gallery-close">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="grid wide">
+                    <div class="gallery-container">
+                        <h1 class="gallery-title">PHIM ỐNG KÍNH FULL-FRAME BASEUS CHO IP 12 MINI 5.4 / 12 6.1 / 12 PRO 6.1 / 12 PRO MAX 6.7 INCH 2020 (2 CHIẾC / GÓI) TRONG SUỐT</h1>
+                        
+                        <div class="gallery-body">
+                            <div class="row no-gutters">
+                                <div class="col l-6 m-6 c-12">
+                                    <div class="galleryLeft">
+                                        <div class="gallery-showproduct">
+                                            <img src="./imgs/container_flashsale/container-flashsale2/fls2_1.webp" alt="" class="gallery-showproduct__bigimg">
+                                        </div>
+    
+                                        <div class="gallery-optionproduct">
+                                            <img src="./imgs/container_flashsale/container-flashsale2/fls2_11.webp" alt="" class="gallery-optionproduct__minimg">
+                                            <img src="./imgs/container_flashsale/container-flashsale2/fls2_12.webp" alt="" class="gallery-optionproduct__minimg">
+                                            <img src="./imgs/container_flashsale/container-flashsale2/fls2_13.webp" alt="" class="gallery-optionproduct__minimg">
+                                            <img src="./imgs/container_flashsale/container-flashsale2/fls2_14.webp" alt="" class="gallery-optionproduct__minimg">
+                                            <img src="./imgs/container_flashsale/container-flashsale2/fls2_15.webp" alt="" class="gallery-optionproduct__minimg">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col l-6 m-6 c-12">
+                                    <div class="galleryRight">
+                                        <div class="gallery-introhead">
+                                            <div class="gallery-introhead__content1">
+                                                <div class="gallery-introhead__status">
+                                                    <span>Tình Trạng:</span>
+                                                    <span class="gallery-introhead__status__onoff">Còn Hàng</span>
+                                                </div>
+        
+                                                <div class="gallery-introhead__brand">
+                                                    <span>Thương Hiệu: </span>
+                                                    <span class="gallery-introhead__brand__name">Baseus</span>
+                                                </div>
+                                            </div>
+    
+                                            <div class="gallery-introhead__content2">
+                                                <span>Loại: </span>
+                                                <span class="gallery-introhead__content2__name">Filter Camera</span>
+                                            </div>
+    
+                                        </div>
+
+                                        <div class="gallery-intro__body">
+                                            <p class="gallery-intro__body__decs">Nội dung đang cập nhật...</p>
+
+                                            <div class="gallery-intro__body__price">
+                                                <span class="gallery-intro__body__price__now">299 000 </span>
+                                                <div class="gallery-intro__body__price__dontsale">350 000 </div>
+                                            </div>
+
+                                            <div class="gallery-intro__body__controlquantity">
+                                                <span>Số Lượng:</span>
+                                                <div class="controlquantity-subtrack">
+                                                    <i class="fa-solid fa-minus"></i>
+                                                </div>
+                                                <div class="controlquantity-plus">
+                                                    <i class="fa-solid fa-plus"></i>
+                                                </div>
+                                                <input class="controlquantity-input" value="1" type="text">
+                                            </div>
+
+                                            <div class="gallery-intro__control">
+                                                <button onclick="addNew()" class="gallery-intro__control__addcart">
+                                                    <i class="fa-solid fa-cart-shopping"></i>
+                                                    <span>Thêm vào giỏ</span>
+                                                </button>
+
+                                                <button class="gallery-intro__control__buynow">
+                                                    <span>Mua Ngay</span>
+                                                </button>
+
+
+                                            </div>
+
+                                            <div class="gallery-intro__codegood">
+                                                <div class="gallery-intro__codegood-wrap1">
+                                                    <p class="gallery-intro__codegood__content">Nhập mã <span>MEWMAL</span> để được giảm ngay 100k (áp dụng cho các đơn hàng trên 500k)</p>
+                                                    <button class="gallery-intro__codegood__btnCopy">Sao chép</button>
+                                                </div>
+
+                                                <div class="gallery-intro__codegood-wrap2">
+                                                    <p class="gallery-intro__codegood__content2">Nhập mã <span>MEWMAL</span> để được ngay 20% tổng giá trị đơn hàng. Số lượng có hạn</p>
+                                                    <button class="gallery-intro__codegood__btnCopy2">Sao chép</button>
+                                                </div>
+
+                                                <div class="gallery-intro__codegood-top">
+                                                    <i class="fa-solid fa-gift"></i>
+                                                    <span>Code Ưu Đãi</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- <img src="./imgs/container_flashsale/container-flashsale2/fls2_5.jpg" alt=""> -->
+
+
+
+                                </div>
+                            </div>
+                        </div>
+
+    
+    
+                    </div>
+
+                </div>
+
+                
+                     <ul class="model-notification">
+                        <!-- <li class="okok">
+                            <p>Mua thành công</p>
+                            <span>Mời bạn vào giỏ hàng để xem sản phẩm</span>
+        
+                            <div class="model-notification__icon">
+                                <i class="fa-solid fa-xmark"></i>
+                            </div>
+                        </li>
+
+                        <li class="okok">
+                            <p>Mua thành công</p>
+                            <span>Mời bạn vào giỏ hàng để xem sản phẩm</span>
+        
+                            <div class="model-notification__icon">
+                                <i class="fa-solid fa-xmark"></i>
+                            </div>
+                        </li>
+
+
+                        <li class="okok">
+                            <p>Mua thành công</p>
+                            <span>Mời bạn vào giỏ hàng để xem sản phẩm</span>
+        
+                            <div class="model-notification__icon">
+                                <i class="fa-solid fa-xmark"></i>
+                            </div>
+                        </li> -->
+                    </ul> 
+
+                
+
+            </div>
+            
+
+
+
+
+        </div>
+
+        <!-- footer -->
+
+        <div class="footer">
+           <div class="grid wide">
+                <div class="footer-container">
+                    <div class="row">
+                        <div class="col l-6 m-12 c-12">
+                            <div class="footer-list__container">
+                                <ul class="footer-list__helpsilent">
+                                    <h3 class="footer-list__helpsilent__title">Hỗ trợ khách hàng</h3>
+                                    <li class="footer-list__helpsilent__item">
+                                        <a href="#" class="footer-list__helpsilent__item__link">Các câu hỏi thường gặp</a>
+                                    </li>
+                                    <li class="footer-list__helpsilent__item">
+                                        <a href="#" class="footer-list__helpsilent__item__link">Gửi yêu cầu hỗ trợ</a>
+                                    </li>
+                                    <li class="footer-list__helpsilent__item">
+                                        <a href="#" class="footer-list__helpsilent__item__link">Hướng dẫn đặt hàng</a>
+                                    </li>
+                                    <li class="footer-list__helpsilent__item">
+                                        <a href="#" class="footer-list__helpsilent__item__link">Phương thức vận chuyển</a>
+                                    </li>
+                                    <li class="footer-list__helpsilent__item">
+                                        <a href="#" class="footer-list__helpsilent__item__link">Giới thiệu Mew Mall</a>
+                                    </li>
+                                    <li class="footer-list__helpsilent__item">
+                                        <a href="#" class="footer-list__helpsilent__item__link">Tuyển dụng</a>
+                                    </li>
+                                </ul>
+                                <ul class="footer-list__rule">
+                                    <h3 class="footer-list__rule__title">Chính sách Mew Mall</h3>
+                                    <li class="footer-list__rule__item">
+                                        <a href="#" class="footer-list__rule__item__link">Chính sách bảo mật thanh toán</a>
+                                    </li>
+                                    <li class="footer-list__rule__item">
+                                        <a href="#" class="footer-list__rule__item__link">Chính sách bảo mật thông tin</a>
+                                    </li>
+                                    <li class="footer-list__rule__item">
+                                        <a href="#" class="footer-list__rule__item__link">Chính sách giải quyết khiếu nại</a>
+                                    </li>
+                                    <li class="footer-list__rule__item">
+                                        <a href="#" class="footer-list__rule__item__link">Chính sách đổi trả hàng</a>
+                                    </li>
+                                    <li class="footer-list__rule__item">
+                                        <a href="#" class="footer-list__rule__item__link">Chính sách bảo hành</a>
+                                    </li>
+                                    <li class="footer-list__rule__item">
+                                        <a href="#" class="footer-list__rule__item__link">Điều khoản sử dụng</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                
+                        <div class="col l-6 m-12 c-12">
+                            <div class="footer-list__assess-container">
+                                <h3 class="footer-list__assess__title">Đánh giá khách hàng</h3>
+                                <div class="footer-list__assess-box">
+                                    <div class="footer-list__assess-img__wrap">
+                                        <img src="./imgs/footer/social/dancer.webp" alt="" class="footer-list__assess-img">
+                                        <img src="./imgs/footer/imgsilent/ykkh_1.webp" alt="" class="footer-list__assess-img2"> 
+                                    </div>
+                                    <div class="footer-list__assess-content">
+                                        <span class="footer-list__assess-content__name">Hương Suri</span>
+                                        <span class="footer-list__assess-content__text">Mình rất ưng khi đến Mew Mall. Ở đây có rất nhiều mặt hàng phong phú, tha hồ lựa chọn. Nhân viên chuyên nghiệp, nhiệt tình. Chúc MewMall ngày càng phát triển.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col l-6 m-6 c-12">
+                            <div class="footer-contact">
+                                <h3 class="footer-contact-title">Thông tin liên hệ</h3>
+                                <div class="footer-contact__content1">
+                                    <span class="footer-contact__content1-address">Địa chỉ: </span> <span class="footer-contact__content1-nameaddress">Ladeco Building, 266 Doi Can Street, Ba Dinh District, Hanoi.</span>
+                                </div>
+                                <div class="footer-contact__content2">
+                                    <span class="footer-contact__content2-email">Email: </span> <span class="footer-contact__content2-nameemail">support@sapo.vn</span>
+                                </div>
+                                <div class="footer-contact__content3">
+                                    <span class="footer-contact__content3-hotline">Hotline: </span> <span class="footer-contact__content3-namehotline">1900 6750</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col l-6 m-6 c-12">
+                            <div class="footer-conect">
+                                <div class="footer-conect-box1">
+                                    <h3 class="footer-conect-title">Kết nối với chúng tôi</h3>
+                                    <div class="footer-conect-SocialNetwork">
+                                        <a href="#" class="footer-conect-SocialNetwork__link">
+                                           <img src="./imgs/footer/social/facebook.png" alt="" class="footer-conect-SocialNetwork">
+                                        </a>
+                                        <a href="#" class="footer-conect-SocialNetwork__link">
+                                           <img src="./imgs/footer/social/instagram.png" alt="" class="footer-conect-SocialNetwork">
+                                            
+                                        </a>
+                                        <a href="#" class="footer-conect-SocialNetwork__link">
+                                           <img src="./imgs/footer/social/twitter.png" alt="" class="footer-conect-SocialNetwork">
+                                            
+                                        </a>
+                                        <a href="#" class="footer-conect-SocialNetwork__link">
+                                           <img src="./imgs/footer/social/youtube.png" alt="" class="footer-conect-SocialNetwork">
+                                            
+                                        </a>
+                                        <a href="#" class="footer-conect-SocialNetwork__link">
+                                           <img src="./imgs/footer/social/shopee.webp" alt="" class="footer-conect-SocialNetwork shopee">
+                                            
+                                        </a>
+                                        <a href="#" class="footer-conect-SocialNetwork__link">
+                                           <img src="./imgs/footer/social/lazada.webp" alt="" class="footer-conect-SocialNetwork lazada">
+                                            
+                                        </a>
+                
+                                    </div>
+
+                                    <div class="footer-pay">
+                                        <span class="footer-pay-title">Phương Thức Thanh Toán</span>
+                                        <div class="footer-conect-boxImg">
+                                            <img src="./imgs/footer/social/payment-1.png" alt="" class="footer-conect-img">
+                                            <img src="./imgs/footer/social/payment-2.png" alt="" class="footer-conect-img">
+                                            <img src="./imgs/footer/social/payment-3.png" alt="" class="footer-conect-img">
+                                            <img src="./imgs/footer/social/payment-4.png" alt="" class="footer-conect-img">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="footer-conect-box2">
+                                    <img src="./imgs/footer/social/mew_store.webp" alt="" class="footer-conect-map">
+                                    <button class="footer-conect-btn">
+                                        HỆ THỐNG CỬA HÀNG
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           </div>
+
+        </div>
+
+        <!-- Nav-mobiletablet -->
+        <div class="nav-mobileTablet">
+            <div class="grid">
+                <div class="nav-mobileTablet-container">
+                    <ul class="nav-mobileTablet-list">
+                        <li class="nav-mobileTablet-item">
+                            <a href="" class="nav-mobileTablet-item__link">
+                                <i class="fa-solid fa-house"></i>
+                                <span class="nav-mobileTablet-item__name">Trang chủ</span>
+                            </a>
+                        </li>
+                        <li class="nav-mobileTablet-item nav-mobileTablet-item--category">
+                            <a href="#" class="nav-mobileTablet-item__link">
+                                <i class="fa-solid fa-list"></i>
+                                <span class="nav-mobileTablet-item__name">Danh mục</span>
+                            </a>
+                        </li>
+                        <li class="nav-mobileTablet-item nav-mobileTablet--contact">
+                            <a href="#" class="nav-mobileTablet-item__link">
+                                <i class="fa-solid fa-phone"></i>
+                                <span class="nav-mobileTablet-item__name">Liên Hệ</span>
+                            </a>
+                            <div class="nav-mobileTablet-subcontact">
+                                <img src="./imgs/imgMobile/telephone.webp" alt="" class="nav-mobileTablet-contact">
+                                <img src="./imgs/imgMobile/messenger.webp" alt="" class="nav-mobileTablet-contact">
+                                <img src="./imgs/imgMobile/zalo_des.webp" alt="" class="nav-mobileTablet-contact">
+                            </div>
+                        </li>
+                        <li class="nav-mobileTablet-item nav-mobileTablet-item--user">
+                            <a href="#" class="nav-mobileTablet-item__link">
+                                <i class="fa-solid fa-user"></i>
+                                <span class="nav-mobileTablet-item__name">Tài Khoản</span>
+                            </a>
+                        </li>
+                        <li class="nav-mobileTablet-item nav-mobileTablet-item--cart">
+                            <a href="#" class="nav-mobileTablet-item__link">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <span class="nav-mobileTablet-item__name">Giỏ Hàng</span>
+                            </a>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <!-- CoppyRight -->
+
+        <div class="CoppyRight">
+            <div class="grid wide">
+                <div class="CoppyRight-wrap">
+                    <span class="CoppyRightText">Remake by</span> <div class="CoppyRightName">@Nguyen Manh Tien</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+    <!-- MODEL1 -->
+    <form action="" id="form_1">
+        <div class="model login">
+            <div class="model__ovarlay"></div>
+            <!-- Form Đăng Nhập -->
+            <div class="model-body">
+                <div class="model-body__head">
+                    <h1 class="model-body__name1">Đăng Nhập</h1>
+    
+                    <div class="model-body__homewrap">
+                        <a href=""><p class="model-body__name2">Trang chủ</p> </a> 
+                        <span>/ Đăng Nhập Tài Khoản</span>
+    
+                    </div>
+                </div>
+    
+                <div class="model-body__input">
+                    <input type="email" class="model-body__input__info email" placeholder="Email" required >
+                    <input type="password" class="model-body__input__info password" placeholder="Mật Khẩu" required >
+                </div>
+    
+                <div class="model-body__function">
+                    <button type="submit" class="model-body__function__login">Đăng Nhập</button>
+    
+                    <a href="#"><p>Quên Mật Khẩu ?</p></a> 
+                    
+                </div>
+    
+                <div class="model-body__contact">
+                    <div class="model-body__contact__title">
+                        <div class="line"></div>
+                        <div class="model-body__contact__title__wraptext">
+                            <p class="model-body__contact__title__text">Hoặc Đăng Nhập qua</p>
+                        </div>
+                    </div>
+    
+                    <div class="model-body__contact__SocialNetwork">
+                        <div class="SocialNetwork__wrap">
+                            <div class="SocialNetwork__wrap1">
+                                <div class="SocialNetwork1_icon">
+                                    <a href="">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                </div> 
+                                <div class="SocialNetwork1_text">
+                                    <a href="https://www.facebook.com/cristianoo.tiens/">
+                                        Facebook
+                                    </a>
+                                </div>
+                            </div>
+    
+                            <div class="SocialNetwork__wrap2">
+                                <div class="SocialNetwork2_icon">
+                                    <a href="">
+                                        <i class="fa-brands fa-google"></i>
+                                    </a>
+                                </div>
+                                <div class="SocialNetwork2_text">
+                                    <a href="">
+                                        Google
+                                    </a>
+                                </div>
+    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="model-body__registersub">
+                    <div class="registersub__wrap">
+                        <h1 class="registersub__head">
+                            Đăng Ký
+                        </h1>
+    
+                        <div class="registersub__note">
+                            <p>Tạo tài khoản để quản lý đơn hàng, và các thông tin thanh toán, gửi hàng một cách đơn giản hơn.</p>
+                        </div>
+    
+                    </div>
+                </div>
+                <div class="model__footer">
+                    <button type="submit" class="model__footer_control switchRegister">Tạo tài khoản</button>
+                    <a href="">
+                        <button type="submit" class="model__footer_back">Quay về trang chủ</button>
+                    </a>
+        
+                </div>
+            </div>
+    
+        </div>
+    </form>
+    <!-- MODEL2 -->
+    <form action="" id="form2">
+        <div class="model register">
+            <div class="model__ovarlay"></div>
+            <!-- Form Đăng Kí -->
+            <div class="model-body">
+                <div class="model-body__head">
+                    <h1 class="model-body__name1">Đăng Ký tài khoản</h1>
+    
+                    <div class="model-body__homewrap">
+                        <a href=""><p class="model-body__name2">Trang chủ</p> </a> 
+                        <span>/ Đăng Ký Tài Khoản</span>
+    
+                    </div>
+                </div>
+    
+                <div class="model-body__input">
+                    <input type="text" class="model-body__input__info" placeholder="Tên" required>
+                    <input type="text" class="model-body__input__info" placeholder="Họ Tên" required>
+                    <input type="email" class="model-body__input__info" placeholder="Email" required>
+                    <input type="password" class="model-body__input__info" placeholder="Mật Khẩu" required>
+                </div>
+    
+                <div class="model-body__function">
+                    <button class="model-body__function__register">Đăng Ký</button>
+                    <!-- <a href=""><p>Quên Mật Khẩu ?</p></a>  -->
+                    
+                </div>
+    
+                <div class="model-body__contact">
+                    <div class="model-body__contact__title">
+                        <div class="line"></div>
+                        <div class="model-body__contact__title__wraptext">
+                            <p class="model-body__contact__title__text">Hoặc Đăng Nhập qua</p>
+                        </div>
+                    </div>
+    
+                    <div class="model-body__contact__SocialNetwork">
+                        <div class="SocialNetwork__wrap">
+                            <div class="SocialNetwork__wrap1">
+                                <div class="SocialNetwork1_icon">
+                                    <a href="">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                </div> 
+                                <div class="SocialNetwork1_text">
+                                    <a href="">
+                                        Facebook
+                                    </a>
+                                </div>
+                            </div>
+    
+                            <div class="SocialNetwork__wrap2">
+                                <div class="SocialNetwork2_icon">
+                                    <a href="">
+                                        <i class="fa-brands fa-google"></i>
+                                    </a>
+                                </div>
+                                <div class="SocialNetwork2_text">
+                                    <a href="">
+                                        Google
+                                    </a>
+                                </div>
+    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                
+                <div class="model__footer">
+                    <button type="submit" class="model__footer_control switchLogin">Đăng Nhập</button>
+                   <a href="">
+                       <button type="submit" class="model__footer_back">Quay về trang chủ</button>
+                   </a>
+        
+                </div>
+            </div>
+    
+        </div>
+    </form>
+
+    <!--Model video -->
+
+    <div class="model-video">
+        <div class="model-video__wrap">
+            <iframe src="https://www.youtube.com/embed/ntTmCr_x0Pc" frameborder="0" class="model-video__box"></iframe>
+
+            <div class="model-video__icon">
+                <i class="fa-solid fa-circle-xmark"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Model category MobileTablet -->
+
+    <div class="model-categoryMoblieTablet">
+        <div class="grid">
+            <div class="model-categoryMoblieTablet-container">
+                <div class="row no-gutters">
+                    <div class="col c-4">
+                        <div class="model-categoryMoblieTablet-left">
+                            <div class="model-categoryMoblieTablet-left__demo">
+
+                                <div class="model-categoryMoblieTablet-left__demo__item">
+                                    <img src="./imgs/imgMobile/icon_menu_1.png" alt="" class="model-categoryMoblieTablet-left__demo-img">
+                                    <span class="model-categoryMoblieTablet-left__demo-nameproduct">Decor - Nội thất</span>
+                                </div>
+                                <div class="model-categoryMoblieTablet-left__demo__item">
+                                    <img src="./imgs/imgMobile/icon_menu_2.png" alt="" class="model-categoryMoblieTablet-left__demo-img">
+                                    <span class="model-categoryMoblieTablet-left__demo-nameproduct">Phụ Kiện Thời Trang</span>
+                                </div>
+                                <div class="model-categoryMoblieTablet-left__demo__item">
+                                    <img src="./imgs/imgMobile/icon_menu_3.png" alt="" class="model-categoryMoblieTablet-left__demo-img">
+                                    <span class="model-categoryMoblieTablet-left__demo-nameproduct">Quà Tặng Lưu Niệm</span>
+                                </div>
+                                <div class="model-categoryMoblieTablet-left__demo__item">
+                                    <img src="./imgs/imgMobile/icon_menu_4.webp" alt="" class="model-categoryMoblieTablet-left__demo-img">
+                                    <span class="model-categoryMoblieTablet-left__demo-nameproduct">Phụ kiện thể thao</span>
+                                </div>
+                                <div class="model-categoryMoblieTablet-left__demo__item">
+                                    <img src="./imgs/imgMobile/icon_menu_5.png" alt="" class="model-categoryMoblieTablet-left__demo-img">
+                                    <span class="model-categoryMoblieTablet-left__demo-nameproduct">Điện gia dụng</span>
+                                </div>
+                                <div class="model-categoryMoblieTablet-left__demo__item">
+                                    <img src="./imgs/imgMobile/icon_menu_6.png" alt="" class="model-categoryMoblieTablet-left__demo-img">
+                                    <span class="model-categoryMoblieTablet-left__demo-nameproduct">Phụ kiện - Thiết bị số</span>
+                                </div>
+                                <div class="model-categoryMoblieTablet-left__demo__item">
+                                    <img src="./imgs/imgMobile/icon_menu_7.webp" alt="" class="model-categoryMoblieTablet-left__demo-img">
+                                    <span class="model-categoryMoblieTablet-left__demo-nameproduct">Đồ chơi mẹ và bé</span>
+                                </div>
+                                
+                                <div class="model-categoryMoblieTablet-left__demo__item">
+                                    <img src="./imgs/imgMobile/icon_menu_8.webp" alt="" class="model-categoryMoblieTablet-left__demo-img">
+                                    <span class="model-categoryMoblieTablet-left__demo-nameproduct">Phụ kiện Điện thoại</span>
+                                </div>
+                                <div class="model-categoryMoblieTablet-left__demo__item">
+                                    <img src="./imgs/imgMobile/icon_menu_9.webp" alt="" class="model-categoryMoblieTablet-left__demo-img">
+                                    <span class="model-categoryMoblieTablet-left__demo-nameproduct">Điện tử - Điện lạnh</span>
+                                </div>
+                                <div class="model-categoryMoblieTablet-left__demo__item">
+                                    <img src="./imgs/imgMobile/icon_menu_10.webp" alt="" class="model-categoryMoblieTablet-left__demo-img">
+                                    <span class="model-categoryMoblieTablet-left__demo-nameproduct">Phụ kiện - Cáp sạc</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col c-8">
+                        <div class="model-categoryMoblieTablet-right">
+                            <ul class="model-categoryMoblieTablet-right-list">
+                                <a href="#">
+                                    <li class="model-categoryMoblieTablet-right-item active">
+                                        <span class="model-categoryMoblieTablet-right-name">Bàn ghế</span>
+                                        <span class="model-categoryMoblieTablet-right-name">Tủ quần áo</span>
+                                        <span class="model-categoryMoblieTablet-right-name">Gương decor</span>
+                                        <span class="model-categoryMoblieTablet-right-name">Tủ đầu giường</span>
+                                        <span class="model-categoryMoblieTablet-right-name">Giá treo đồ</span>
+                                    </li>
+                                </a>
+                                <a href="#">
+                                    <li class="model-categoryMoblieTablet-right-item">
+                                        <span class="model-categoryMoblieTablet-right-name">T Shirt</span>
+                                        <span class="model-categoryMoblieTablet-right-name">Áo Polo</span>
+                                        <span class="model-categoryMoblieTablet-right-name">Quần Jogger</span>
+                                        <span class="model-categoryMoblieTablet-right-name">Quần Jean</span>
+                                        <span class="model-categoryMoblieTablet-right-name">Thắt lưng</span>
+                                    </li>
+                                </a>
+                                <a href="#">
+                                    <li class="model-categoryMoblieTablet-right-item">
+                                        <span class="model-categoryMoblieTablet-right-name">Dây chuyền</span>
+                                        <span class="model-categoryMoblieTablet-right-name">Lắc tay</span>
+                                        <span class="model-categoryMoblieTablet-right-name">Hoa tai, Nhẫn</span>
+                                        <span class="model-categoryMoblieTablet-right-name">QTúi sách mini</span>
+                                        <span class="model-categoryMoblieTablet-right-name">Thú bông</span>
+                                    </li>
+                                </a>
+                                <a href="#">
+                                    <li class="model-categoryMoblieTablet-right-item">
+                                        <span class="model-categoryMoblieTablet-right-name">Giày chạy</span>
+                                        <span class="model-categoryMoblieTablet-right-name">Giày đá bóng</span>
+                                        <span class="model-categoryMoblieTablet-right-name">Ván trượt</span>
+                                        <span class="model-categoryMoblieTablet-right-name">Vợt cầu lông</span>
+                                    </li>
+                                </a>
+                                <a href="#">
+                                    <li class="model-categoryMoblieTablet-right-item">
+                                        <span class="model-categoryMoblieTablet-right-name">Dây chuyền</span>
+                                        <span class="model-categoryMoblieTablet-right-name">Lắc tay</span>
+                                        <span class="model-categoryMoblieTablet-right-name">Hoa tai, Nhẫn</span>
+                                        <span class="model-categoryMoblieTablet-right-name">QTúi sách mini</span>
+                                        <span class="model-categoryMoblieTablet-right-name">Thú bông</span>
+                                    </li>
+                                </a>
+                                <a href="#">
+                                    <li class="model-categoryMoblieTablet-right-item">
+                                        <span class="model-categoryMoblieTablet-right-name">T Shirt</span>
+                                        <span class="model-categoryMoblieTablet-right-name">Áo Polo</span>
+                                        <span class="model-categoryMoblieTablet-right-name">Quần Jogger</span>
+                                        <span class="model-categoryMoblieTablet-right-name">Quần Jean</span>
+                                        <span class="model-categoryMoblieTablet-right-name">Thắt lưng</span>
+                                    </li>
+                                </a>
+                                <a href="#">
+                                    <li class="model-categoryMoblieTablet-right-item">
+                                        <span class="model-categoryMoblieTablet-right-name">Giày chạy</span>
+                                        <span class="model-categoryMoblieTablet-right-name">Giày đá bóng</span>
+                                        <span class="model-categoryMoblieTablet-right-name">Ván trượt</span>
+                                        <span class="model-categoryMoblieTablet-right-name">Vợt cầu lông</span>
+                                    </li>
+                                </a>
+                                <a href="#">
+                                    <li class="model-categoryMoblieTablet-right-item">
+                                        <span class="model-categoryMoblieTablet-right-name">T Shirt</span>
+                                        <span class="model-categoryMoblieTablet-right-name">Áo Polo</span>
+                                        <span class="model-categoryMoblieTablet-right-name">Quần Jogger</span>
+                                        <span class="model-categoryMoblieTablet-right-name">Quần Jean</span>
+                                        <span class="model-categoryMoblieTablet-right-name">Thắt lưng</span>
+                                    </li>
+                                </a>
+                                <a href="#">
+                                    <li class="model-categoryMoblieTablet-right-item">
+                                        <span class="model-categoryMoblieTablet-right-name">Dây chuyền</span>
+                                        <span class="model-categoryMoblieTablet-right-name">Lắc tay</span>
+                                        <span class="model-categoryMoblieTablet-right-name">Hoa tai, Nhẫn</span>
+                                        <span class="model-categoryMoblieTablet-right-name">QTúi sách mini</span>
+                                        <span class="model-categoryMoblieTablet-right-name">Thú bông</span>
+                                    </li>
+                                </a>
+                                <a href="#">
+                                    <li class="model-categoryMoblieTablet-right-item">
+                                        <span class="model-categoryMoblieTablet-right-name">Bàn ghế</span>
+                                        <span class="model-categoryMoblieTablet-right-name">Tủ quần áo</span>
+                                        <span class="model-categoryMoblieTablet-right-name">Gương decor</span>
+                                        <span class="model-categoryMoblieTablet-right-name">Tủ đầu giường</span>
+                                        <span class="model-categoryMoblieTablet-right-name">Giá treo đồ</span>
+                                    </li>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <img src="./imgs/category/banner3_1.webp" alt=""> -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+      <script src="./js/main.js"></script>
+</body>
+</html>
